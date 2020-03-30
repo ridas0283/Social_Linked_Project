@@ -3,3 +3,33 @@ Sportsfolk is an innovative, transparent and reliable web application, designed 
 
 # Problem and Solution Statement
 You will get a clear understading about current problems and solution frrom the attached video link https://www.youtube.com/watch?v=K0Au23JMsMQ
+
+# Getting Started
+The following instructions will get you a copy of the project and running on your machine for development.
+
+# Prerequisites
+Apache 2.2.33, PHP 7.2.7, MySQL 5.0.12
+
+# Installing and Deployment
+Step 1. Install Apache 2.2.33, PHP 7.2.7, MySQL 5.0.12. Or you can install XAMPP or LAMPP. XAMPP or LAMPP must contain the specified version of Apache, PHP, and MySQL.
+
+Step 2. Enable Curl library from php.ini file. Restart the server.
+
+Step 3. Download or clone the sportsfolk from https://github.com/mayusuf/sportsfolk in document root directory.
+
+Step 4. Import the sql file,“sportsfolk.sql”, from db folder.
+
+Step 5. Configure the database connection from “connection.php” file.
+
+Step 6. Run the web application from the browser.
+
+Step 7. Create your account using WebID. You can get the WebID from any POD provider.
+
+Step 8. Login using WebID and password what you provided while creating account in POD provider.
+
+# Authors 
+SHREYA DAS
+ATHAR ISLAM
+MD ABU YUSUF - mayusuf
+MUHAMMAD HASEEB
+NOMAN HASSAN
