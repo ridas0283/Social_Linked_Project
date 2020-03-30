@@ -28,8 +28,8 @@ Step 7. Create your account using WebID. You can get the WebID from any POD prov
 Step 8. Login using WebID and password what you provided while creating account in POD provider.
 
 # Authors 
-SHREYA DAS
-ATHAR ISLAM
-MD ABU YUSUF - mayusuf
-MUHAMMAD HASEEB
-NOMAN HASSAN
+1. SHREYA DAS
+2. ATHAR ISLAM
+3. MD ABU YUSUF - mayusuf
+4. MUHAMMAD HASEEB
+5. NOMAN HASSAN
