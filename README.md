@@ -30,6 +30,6 @@ Step 8. Login using WebID and password what you provided while creating account 
 # Authors 
 1. SHREYA DAS
 2. ATHAR ISLAM
-3. MD ABU YUSUF - mayusuf
+3. MD ABU YUSUF 
 4. MUHAMMAD HASEEB
 5. NOMAN HASSAN
