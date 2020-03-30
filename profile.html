@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is social network html5 template available in themeforest......" />
+		<meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+		<meta name="robots" content="index, follow" />
+		<title>About Me | Learn Detail About Me</title>
+
+    <!-- Stylesheets
+    ================================================= -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+	</head>
+  <body>
+
+    <!-- Header
+    ================================================= -->
+		<header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+               <a class="navbar-brand" href="main.php"><img src="images/logo.png" alt="logo" /></a>
+          </div>
+       <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-menu">
+            <li class="dropdown">
+                <a href="profile.html"/>Profile</span></a>
+              </li>
+
+            <li class="dropdown">
+                 <a href="main.php"/>Home</span></a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle pages" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome <span class="pf_name"></span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu page-list">
+                    <li><a href="javascript:void(0)" id="logout">Log Out</a></li>
+
+                </ul>
+              </li>
+
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+    </header>
+    <!--Header End-->
+
+    <div class="container">
+
+      <!-- Timeline
+      ================================================= -->
+      <div class="timeline">
+        <div class="timeline-cover">
+
+          <!--Timeline Menu for Large Screens-->
+          <div class="timeline-nav-bar hidden-sm hidden-xs">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="profile-info">
+									<img src="http://placehold.it/300x300" alt="" class="img-responsive profile-photo pf_photo" />
+									<h3><span class="pf_name"></span></h3>
+
+                </div>
+              </div>
+              <div class="col-md-9">
+                <ul class="list-inline profile-menu">
+                  <li>.</li>
+
+                </ul>
+                <ul class="follow-me list-inline">
+                 <li><a href="edit-profile-info.html"><button class="btn-primary">Edit Data</button></a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div><!--Timeline Menu for Large Screens End-->
+
+          <!--Timeline Menu for Small Screens-->
+          <div class="navbar-mobile hidden-lg hidden-md">
+            <div class="profile-info">
+              <img src="images/profile_img/pfpic.jpg" alt="" class="img-responsive profile-photo" />
+              <h4>ABU YUSUF</h4>
+            </div>
+            <div class="mobile-menu">
+              <ul class="list-inline">
+
+                <li><a href="timeline-about.html" class="active">About</a></li>
+
+                <li><a href="timeline-friends.html">Friends</a></li>
+              </ul>
+              <button class="btn-primary">Add Friend</button>
+            </div>
+          </div><!--Timeline Menu for Small Screens End-->
+
+        </div>
+        <div id="page-contents">
+          <div class="row">
+
+
+            <div class="col-md-3">
+
+              <!--Edit Profile Menu-->
+              <ul class="edit-menu">
+
+								<li><i class="icon ion-ios-briefcase-outline"></i><a href="#">Gender : <span class="gender"> Male </span></a></li>
+              	<li><i class="icon ion-ios-locked-outline"></i><a href="#">Age : <span class="age">25 </span> </a></li>
+
+              </ul>
+            </div>
+
+
+
+
+            <div class="col-md-7">
+
+              <!-- About
+              ================================================= -->
+              <div class="about-profile">
+                <div class="about-content-block">
+                  <h4 class="grey"><i class="ion-ios-information-outline icon-in-title"></i>Personal Information</h4>
+                  <p>I am very much interested for outdoor games.  Its gives me sprit to do daily works and keeps free from stress.  So, I am looking for people who have interest in outdoor games  to play in nearest locations.</p>
+                </div>
+
+                <div class="about-content-block">
+                  <h4 class="grey"><i class="ion-ios-location-outline icon-in-title"></i>Location</h4>
+                  <p id=loc>228 Park Eve, New York</p>
+                  <div class="google-maps">
+                    <div id="googleMap" class="map"></div>
+                  </div>
+                </div>
+                <div class="about-content-block">
+									<h4 class="grey"><i class="ion-ios-heart-outline icon-in-title"></i>Interests</h4>
+                  <ul class="interests list-inline pf_interest">
+                    <li><span class="int-icons" title="Bycycle riding"><i class="icon ion-android-bicycle"></i></span></li>
+                    <li><span class="int-icons" title="Photography"><i class="icon ion-ios-camera"></i></span></li>
+                    <li><span class="int-icons" title="Shopping"><i class="icon ion-android-cart"></i></span></li>
+                    <li><span class="int-icons" title="Traveling"><i class="icon ion-android-plane"></i></span></li>
+                    <li><span class="int-icons" title="Eating"><i class="icon ion-android-restaurant"></i></span></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer
+    ================================================= -->
+   <footer id="footer">
+   <div class="container">
+      </div>
+      <div class="copyright">
+        <p>One Direction © 2019. All rights reserved</p>
+      </div>
+		</footer>
+
+    <!--preloader-->
+    <div id="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
+
+		<script>
+		// Initialize and add the map
+		function myMap()  {
+
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+          zoom: 8
+        });
+        var geocoder = new google.maps.Geocoder();
+
+
+          geocodeAddress(geocoder, map);
+
+      }
+
+      function geocodeAddress(geocoder, resultsMap) {
+
+				var address=(document.getElementById("loc").innerHTML)
+
+        geocoder.geocode({'address': address}, function(results, status) {
+          if (status === 'OK') {
+            resultsMap.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+              map: resultsMap,
+              position: results[0].geometry.location
+            });
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+
+      }
+
+
+    </script>
+    <!-- Scripts
+    ================================================= -->
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky-kit.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/script.js"></script>
+		<script src="js/script.js"></script>
+		<script src="https://solid.github.io/solid-auth-client/dist/solid-auth-client.bundle.js"></script>
+	  <script src="js/rdflib.min.js"></script>
+
+		<script>
+
+		const FOAF = $rdf.Namespace('http://xmlns.com/foaf/0.1/');
+		const VCARD = $rdf.Namespace('http://www.w3.org/2006/vcard/ns#');
+
+		const store = $rdf.graph();
+		const fetcher = new $rdf.Fetcher(store);
+		const updater = new $rdf.UpdateManager(store);
+
+		async function greetUser() {
+
+			const session = await solid.auth.currentSession();
+
+			// if (!session)
+			//   alert('Hello stranger!');
+			// else
+			//   alert(`Hello ${session.webId}!`);
+
+			const person = session.webId;
+			//alert(person);
+
+			await fetcher.load(person);
+
+			// const fullName = store.any($rdf.sym(person), FOAF('name'));
+			// $('.full_name').text(fullName);
+
+			const name = store.any($rdf.sym(person), VCARD('fn'));
+			//alert(name);
+			$(".pf_name").text(name);
+
+			const fullName = store.any($rdf.sym(person), FOAF('name'));
+			//alert(fullName)
+			$('.full_name').text(fullName);
+
+			var hasPhoto = store.any($rdf.sym(person), VCARD('hasPhoto'));
+			photo = String(hasPhoto);
+			//alert(photo);
+			photo = photo.replace('<','').replace('>','');
+			$(".pf_photo").attr('src',photo);
+
+
+			const age = store.any($rdf.sym(person), VCARD('age'));
+			//alert(age);
+			$(".age").text(age);
+
+			const hasAddress = store.any($rdf.sym(person), VCARD('hasAddress'));
+			const locality = store.any($rdf.sym(hasAddress), VCARD('locality'));
+			//alert(locality);
+			$(".gender").text(locality);
+
+			const street  = store.any($rdf.sym(hasAddress), VCARD('street-address'));
+			const region = store.any($rdf.sym(hasAddress), VCARD('region'));
+			const country = store.any($rdf.sym(hasAddress), VCARD('country-name'));
+			//alert(street + region + country);
+			const location = street + " " +  region + " " +  country;
+			//alert(location);
+			$("#loc").text(location);
+
+			//const fullName = store.any($rdf.sym(person), FOAF('name'));
+			const hobby = store.any($rdf.sym(person), FOAF('hobby'));
+			//alert(hobby);
+			//interest = String(note);
+			//alert(interest.split(':')[1]);
+			//interest = interest.split(':')[1];
+			$(".pf_interest").text(hobby);
+
+			myMap();
+
+		}
+		greetUser();
+
+		//myDetails();
+
+		// const AS = 'https://www.w3.org/ns/activitystreams#';
+		// const RDFS = 'http://www.w3.org/2000/01/rdf-schema#';
+		// const FOAF = 'http://xmlns.com/foaf/0.1/knows';
+		// const LDP   = "http://www.w3.org/ns/ldp#";
+
+		//alert('enter function 00');
+
+
+
+		// async function myDetails() {
+		//
+		// 	alert('enter hfghghfgh');
+		//
+		// 	var sender = 'https://mayusuf.inrupt.net/profile/card#me';
+		// 	var friend = 'https://athar.solid.community/profile/card#me';
+		//
+		//    // if (!sender || !friend) return;
+		//   var uri = sender;
+		//   var doc = uri.split('#')[0];
+		// 	alert(await solid.auth.currentSession());
+		//     //$scope.notify('adding friend : ' + $scope.profile);
+		// 	alert('adding friend : ' + friend);
+		//
+		//
+		//   var message = "PREFIX foaf:  <" + 'http://xmlns.com/foaf/0.1/' +
+		// 	"> INSERT DATA { <" + sender + ">  foaf:knows <"+ friend +"> }";
+		// 	alert(message);
+		//
+		//    // console.log(message);
+		// 	 var USERNAME = 'mayusuf';
+		// 	 var PASSWORD = 'sambaHttpd2811#';
+		//
+		// 	 $.ajax({
+		// 		 		url: doc,
+		// 				method: 'PATCH',
+		// 				headers: {
+		// 	        "Content-Type": "application/sparql-update",
+		// 					"Authorization": await solid.auth.currentSession(),
+		// 	      },
+		// 				data: message,
+		// 				success: function(){
+		// 		 			alert('Friend added');
+		// 	 		}
+		//  	});
+		//
+		//
+		//   }
+
+
+
+		$('#logout').click(async function() {
+			await solid.auth.logout();
+			window.location.href = 'index.php';
+		});
+
+	</script>
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA28KaLhhbGpOpJXVixb0hp_qcxeJ5Ozb0&callback=myMap"
+type="text/javascript"></script>
+
+  </body>
+</html>
